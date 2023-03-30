@@ -1,0 +1,1 @@
+INSERT INTO languaje (iso,message) VALUES ('es','Hola Mundo');

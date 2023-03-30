@@ -1,1 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/adelafug-dev/config-service-reto-incial.git
+          search-paths: config-service-reto-inicial
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
 
