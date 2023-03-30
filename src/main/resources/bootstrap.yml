@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/adelafug-dev/config-service-reto-incial.git
-          search-paths: config-service-reto-inicial
+          search-paths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
